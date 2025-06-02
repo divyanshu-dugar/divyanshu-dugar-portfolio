@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! I'm Divyanshu Dugar — a passionate s
 
 ## 🚀 Live Website
 
-🌐 [Visit Portfolio](https://github.com/divyanshu-dugar/divyanshu-dugar-portfolio.git)
+🌐 [Visit Portfolio](https://divyanshu-dugar-developer-portfolio.vercel.app/)
 
 ---
 
