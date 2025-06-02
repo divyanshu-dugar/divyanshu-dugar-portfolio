@@ -5,9 +5,11 @@ import SkillsToolbox from "./components/skillsToolBox";
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <HomeHero />
-      <SkillsToolbox/>
+      <div>
+        <Navbar />
+        <HomeHero />
+        <SkillsToolbox/>
+      </div>
     </>
   );
 }
