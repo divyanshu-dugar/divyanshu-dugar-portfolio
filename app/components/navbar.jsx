@@ -16,22 +16,28 @@ export default function Navbar() {
                         <li><a>Projects</a></li>
                         <li><a>Work Experience</a></li>
                         <li><a href="/notes">My Library</a></li>
+                        <li><a href="/">My Learning List</a></li>
+                        <li><a href="/">My Mindset</a></li>
+                        <li><a href="/">My Books</a></li>
                     </ul>
                 </div>
                 <a className="btn btn-ghost text-xl">DD</a>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1 font-bold font-size-l text-lg">
+                <ul className="menu menu-horizontal px-1 font-normal font-size-l text-lg">
                         <li><a href="/">Home</a></li>
                         <li><a>About</a></li>
                         <li><a>Skills</a></li>
                         <li><a>Projects</a></li>
                         <li><a>Work Experience</a></li>
                         <li><a href="/notes">My Library</a></li>
+                        <li><a href="/">My Learning List</a></li>
+                        <li><a href="/">My Mindset</a></li>
+                        <li><a href="/">My Books</a></li>
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Resume</a>
+                <a href="https://docs.google.com/document/d/1qaOGJb2Pb86bN2J_wgu-Q06MwXSBStNNDNJwHT4gGWU/edit?usp=sharing" target="_blank" className="btn">Resume</a>
             </div>
         </div>
     );
