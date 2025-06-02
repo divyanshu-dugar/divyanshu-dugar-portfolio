@@ -17,8 +17,8 @@ export default function Navbar() {
                         <li><a>Work Experience</a></li>
                         <li><a href="/notes">My Library</a></li>
                         <li><a href="/">My Learning List</a></li>
-                        <li><a href="/">My Mindset</a></li>
-                        <li><a href="/">My Books</a></li>
+                        <li><a href="/my-mindset">My Mindset</a></li>
+                        <li><a href="/my-books">My Books</a></li>
                     </ul>
                 </div>
                 <a className="btn btn-ghost text-xl">DD</a>
@@ -32,8 +32,8 @@ export default function Navbar() {
                         <li><a>Work Experience</a></li>
                         <li><a href="/notes">My Library</a></li>
                         <li><a href="/">My Learning List</a></li>
-                        <li><a href="/">My Mindset</a></li>
-                        <li><a href="/">My Books</a></li>
+                        <li><a href="/my-mindset">My Mindset</a></li>
+                        <li><a href="/my-books">My Books</a></li>
                 </ul>
             </div>
             <div className="navbar-end">
