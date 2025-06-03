@@ -32,7 +32,11 @@ export default function NotesPage() {
     <>
         <Navbar/>
         <main className="min-h-screen bg-[#121212] px-6 py-10">
-        <h2 className="text-3xl font-bold text-white mb-8 text-center">Welcome to my Library !</h2>
+        <div className="max-w-5xl mx-auto text-center">
+          <h1 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-purple-500 mb-10">
+            Welcome to My Library
+          </h1>
+        </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             {notesData.map((note, idx) => (
             <NoteCard key={idx} {...note} />
