@@ -15,7 +15,7 @@ export default function Navbar() {
                         <li><a href="/skills">Skills</a></li>
                         <li><a>Projects</a></li>
                         <li><a>Work Experience</a></li>
-                        <li><a href="/notes">My Library</a></li>
+                        <li><a href="/my-library">My Library</a></li>
                         <li><a href="/">My Learning List</a></li>
                         <li><a href="/my-mindset">My Mindset</a></li>
                         <li><a href="/my-books">My Books</a></li>
@@ -30,7 +30,7 @@ export default function Navbar() {
                         <li><a href="/skills">Skills</a></li>
                         <li><a>Projects</a></li>
                         <li><a>Work Experience</a></li>
-                        <li><a href="/notes">My Library</a></li>
+                        <li><a href="/my-library">My Library</a></li>
                         <li><a href="/">My Learning List</a></li>
                         <li><a href="/my-mindset">My Mindset</a></li>
                         <li><a href="/my-books">My Books</a></li>
