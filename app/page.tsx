@@ -1,6 +1,6 @@
-import Navbar from "@/app/components/navbar";
-import HomeHero from "@/app/components/homeHero";
-import SkillsToolbox from "@/app/components/skillsToolbox";
+import Navbar from "@/components/navbar";
+import HomeHero from "@/components/homeHero";
+import SkillsToolbox from "@/components/skillsToolbox";
 
 export default function Home() {
   return (

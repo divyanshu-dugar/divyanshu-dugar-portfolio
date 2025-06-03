@@ -1,7 +1,7 @@
 'use client';
 
-import NoteCard from '../components/noteCard';
-import Navbar from '../components/navbar';
+import NoteCard from '../../components/noteCard';
+import Navbar from '../../components/navbar';
 
 const notesData = [
   {
