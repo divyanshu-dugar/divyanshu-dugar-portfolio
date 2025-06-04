@@ -61,7 +61,7 @@ export default function Projects() {
                 <div className="relative w-full h-48 mb-4 rounded-lg overflow-hidden">
                     <Image
                     src={project.image}
-                    alt={`${project.title} preview`}
+                    alt={`${project.name} preview`}
                     fill
                     className="object-cover filter scale-105"
                     />
