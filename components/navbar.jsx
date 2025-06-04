@@ -13,7 +13,7 @@ export default function Navbar() {
                         <li><a>Home</a></li>
                         <li><a href="/about">About</a></li>
                         <li><a href="/skills">Skills</a></li>
-                        <li><a>Projects</a></li>
+                        <li><a href="/projects">Projects</a></li>
                         <li><a>Work Experience</a></li>
                         <li><a href="/my-library">My Library</a></li>
                         <li><a href="/">My Learning List</a></li>
@@ -28,7 +28,7 @@ export default function Navbar() {
                         <li><a href="/">Home</a></li>
                         <li><a href="/about">About</a></li>
                         <li><a href="/skills">Skills</a></li>
-                        <li><a>Projects</a></li>
+                        <li><a href="/projects">Projects</a></li>
                         <li><a>Work Experience</a></li>
                         <li><a href="/my-library">My Library</a></li>
                         <li><a href="/">My Learning List</a></li>
