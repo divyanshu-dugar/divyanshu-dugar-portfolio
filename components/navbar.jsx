@@ -14,11 +14,11 @@ export default function Navbar() {
                         <li><a href="/about">About</a></li>
                         <li><a href="/skills">Skills</a></li>
                         <li><a href="/projects">Projects</a></li>
-                        <li><a>Work Experience</a></li>
+                        <li><a href="/work-experience">Work Experience</a></li>
                         <li><a href="/my-library">My Library</a></li>
-                        <li><a href="/">My Learning List</a></li>
                         <li><a href="/my-mindset">My Mindset</a></li>
                         <li><a href="/my-books">My Books</a></li>
+                        <li><a href="/">My Learning List 🔒</a></li>
                     </ul>
                 </div>
                 <a className="btn btn-ghost text-xl">DD</a>
@@ -29,11 +29,11 @@ export default function Navbar() {
                         <li><a href="/about">About</a></li>
                         <li><a href="/skills">Skills</a></li>
                         <li><a href="/projects">Projects</a></li>
-                        <li><a>Work Experience</a></li>
+                        <li><a href="/work-experience">Work Experience</a></li>
                         <li><a href="/my-library">My Library</a></li>
-                        <li><a href="/">My Learning List</a></li>
                         <li><a href="/my-mindset">My Mindset</a></li>
                         <li><a href="/my-books">My Books</a></li>
+                        <li><a href="/">My Learning List 🔒</a></li>
                 </ul>
             </div>
             <div className="navbar-end">
