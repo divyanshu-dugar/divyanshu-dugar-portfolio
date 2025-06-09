@@ -1,11 +1,10 @@
 "use client";
 import React from "react";
-import Navbar from "../../components/navbar";
+
 
 export default function AboutMe() {
   return (
     <>
-      <Navbar />
       <section className="min-h-screen bg-gradient-to-b from-zinc-950 to-black px-6 py-16 text-white flex items-center justify-center">
         <div className="max-w-4xl mx-auto text-center space-y-10">
           <h1 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-400 to-sky-400 drop-shadow-lg">

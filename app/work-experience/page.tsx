@@ -37,7 +37,6 @@ const experiences = [
 export default function WorkExperience() {
   return (
     <>
-      <Navbar />
       <main className="min-h-screen bg-zinc-950 px-6 py-12 text-white">
         <div className="text-center mb-16">
           <h1 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-purple-500">

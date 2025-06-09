@@ -1,4 +1,4 @@
-import Navbar from "../../components/navbar";
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -62,7 +62,6 @@ const books = [
 export default function MyBooks() {
   return (
     <>
-      <Navbar />
       <main className="min-h-screen bg-zinc-900 px-6 py-10">
         <div className="max-w-5xl mx-auto text-center">
           <h1 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-purple-500 mb-10">

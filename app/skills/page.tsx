@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import Navbar from "../../components/navbar";
+
 
 const skillsTimeline = [
   {
@@ -90,7 +90,6 @@ const skillsTimeline = [
 export default function SkillsTimeline() {
   return (
     <>
-      <Navbar />
       <div className="min-h-screen bg-gradient-to-b from-zinc-950 to-black px-4 py-16 text-white overflow-x-hidden">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-5xl md:text-6xl font-extrabold text-center mb-16 text-transparent bg-clip-text bg-gradient-to-r from-sky-400 via-purple-400 to-pink-400 drop-shadow-lg">
