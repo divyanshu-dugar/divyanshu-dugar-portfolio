@@ -50,38 +50,47 @@ const skillsTimeline = [
     color: "bg-yellow-500/20 border-yellow-500",
   },
   {
-    year: "2023",
-    logo: "/logos/react.png",
-    title: "React.js & Tailwind",
-    description:
-      "Built multiple SPAs and dashboards using React and Tailwind. Loved how fast UI came to life with component-based design.",
-    category: "Frontend",
-    color: "bg-cyan-500/20 border-cyan-500",
-  },
-  {
-    year: "2023",
+    year: "2024",
     logo: "/logos/node-express.png",
     title: "Node.js & Express",
     description:
-      "Moved into backend to build full-stack apps. Built RESTful APIs and connected them to MongoDB for real-time dashboards.",
+    "After learning plain HTML, CSS, and JavaScript, I moved into backend development to build full-stack applications. Thanks to WEB322 - a course in my 3rd semester. I gained hands-on experience and a solid understanding of the backend stack through practical assignments. I learned key concepts like HTTP methods (GET, POST, PUT, DELETE), RESTful APIs, AJAX, ORM, ODM, client sessions, and more. It was a great learning experience and exciting to build dynamic applications beyond static pages.",
     category: "Backend",
     color: "bg-emerald-500/20 border-emerald-500",
   },
   {
-    year: "2024",
+    year: "2025",
+    logo: "/logos/react.svg",
+    title: "React.js",
+    description:
+      "To build on my foundation in HTML, CSS, and JavaScript, I decided to learn React - a powerful and in-demand frontend library. I created several projects, including FinCraft Studios (featured on the Projects page of this portfolio). With React in my toolkit, I officially completed the MERN stack and proudly consider myself a MERN developer.",
+    category: "Frontend",
+    color: "bg-cyan-500/20 border-cyan-500",
+  },
+  {
+    year: "2025",
     logo: "/logos/nextjs.png",
     title: "Next.js",
     description:
-      "Started using Next.js to level up my SEO and SSR skills. Enjoyed the hybrid rendering approach and API routes.",
-    category: "Frontend",
-    color: "bg-purple-500/20 border-purple-500",
+      "After successfully learning the MERN stack, I decided to take the next step by exploring Next.js - a powerful React framework that's widely used and highly recommended in the industry today. With its built-in benefits like improved SEO, server-side rendering (SSR), static site generation (SSG), API routes, faster performance, and better developer experience, I knew mastering Next.js would be a valuable move toward building a strong career as a developer. Credit goes to WEB422, a 4th-semester web development course at Seneca, which made the learning process hands-on and practical by diving deep into various core concepts of Next.js.",
+      category: "Frontend",
+      color: "bg-purple-500/20 border-purple-500",
+    },
+    {
+      year: "2024",
+      logo: "/logos/mongodb.svg",
+    title: "MongoDB",
+    description:
+      "I had the opportunity to explore MongoDB in two ways. First, while was while learning the MERN stack, where I primarily worked with Mongoose, an ODM that interacts with MongoDB. Second, while I studied MongoDB more formally in DBS311, a third-semester database course at college. There, I learned its native syntax and practiced writing both simple and complex queries. I really enjoyed how its JSON-like syntax felt familiar to JavaScript and appreciated the flexibility it offered compared to traditional SQL databases. This experience also helped me become comfortable working with tools like Mongosh, MongoDB Atlas, and MongoDB Compass.",
+    category: "Database",
+    color: "bg-teal-500/20 border-teal-500",
   },
   {
     year: "2024",
-    logo: "/logos/mongodb.png",
-    title: "MongoDB & PostgreSQL",
+    logo: "/logos/sql.png",
+    title: "SQL",
     description:
-      "Learned both NoSQL and SQL to handle diverse data problems across projects like FinCraft.",
+      "My understanding of SQL and writing queries is quite dynamic. I’ve worked with Oracle SQL 12c, MySQL, and PostgreSQL - each with slight differences, but fundamentally similar in query structure. The ease with which I grasped SQL concepts sparked my interest in exploring the world of data and data science. It made me realize that this might be my ikigai - something I truly enjoy and am naturally good at, and potentially a lifelong pursuit.",
     category: "Database",
     color: "bg-teal-500/20 border-teal-500",
   },
@@ -143,7 +152,7 @@ export default function SkillsTimeline() {
                       rel="noopener noreferrer"
                       className="inline-flex items-center px-4 py-2 text-sm font-medium rounded-md bg-gradient-to-r from-sky-600 to-blue-600 hover:from-sky-700 hover:to-blue-700 text-white shadow-md hover:shadow-lg transition-all group"
                     >
-                      Visit My {skill.title} Playground
+                      Visit My {skill.title} Playground 🔒
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-2 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                       </svg>
