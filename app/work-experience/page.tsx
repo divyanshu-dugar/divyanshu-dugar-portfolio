@@ -1,42 +1,19 @@
-'use client'
+'use client';
 import useSWR from "swr";
 import Image from "next/image";
 
-// const experiences2 = [
-//   {
-//     title: "Supplemental Instruction Leader",
-//     organization: "Seneca Polytechnic",
-//     from: "Sept 2024",
-//     to: "Dec 2024",
-//     description:
-//       "Led peer-to-peer sessions supporting students in complex programming and data courses. Facilitated collaborative learning environments, clarified challenging concepts, and boosted student success rates.",
-//     image: "/work-experience/SI-Leader.png",
-//     skills: ["Leadership", "Communication", "Collaboration", "Teaching"],
-//   },
-//   {
-//     title: "Abacus Course Instructor",
-//     organization: "UCMAS",
-//     from: "Oct 2024",
-//     to: "Present",
-//     description:
-//       "Taught abacus-based arithmetic to children aged 6–13. Created interactive lessons and visual recognition slideshows to engage students and enhance their mental math skills.",
-//     image: "/work-experience/UCMAS.png",
-//     skills: ["Teaching", "Patience", "Presentation Skills", "Child Engagement"],
-//   },
-//   {
-//     title: "President - Seneca Data Science Club",
-//     organization: "Seneca Data Science Club",
-//     from: "Sept 2024",
-//     to: "Present",
-//     description:
-//       "Founded and currently lead the Seneca Data Science Club. Organize workshops, talks, and hands-on events for aspiring data scientists. Foster community, encourage project-based learning, and share industry insights.",
-//     image: "/work-experience/Data-Science-Club.png",
-//     skills: ["Leadership", "Event Management", "Team Building", "Public Speaking"],
-//   },
-// ];
+type ExperienceType = {
+  title: string;
+  organization: string;
+  from: string;
+  to: string;
+  description: string;
+  image: string;
+  skills: string[];
+};
 
 export default function WorkExperience() {
-  const { data: experiences, error } = useSWR('/api/work-experience');
+  const { data: experiences, error } = useSWR<ExperienceType[]>('/api/work-experience');
 
   if (error) return <div>Error loading experience.</div>;
   if (!experiences) return <div>Loading...</div>;
