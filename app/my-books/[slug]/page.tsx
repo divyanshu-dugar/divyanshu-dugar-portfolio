@@ -1,5 +1,4 @@
 "use client"
-import Navbar from '@/components/navbar';
 import { useParams } from 'next/navigation'
 
 export default function BookDetailPage() {
