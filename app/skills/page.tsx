@@ -9,7 +9,7 @@ const skillsTimeline = [
     logo: "/logos/java.svg",
     title: "Java",
     description:
-      "My Gateway into Programming - I began my coding journey with Java back in high school (Grade 8–12), where it served as the foundation for my understanding of programming. From basic constructs like loops, conditionals, and arrays to core concepts like OOP, recursion, and data structures like stacks and queues — Java trained me to think logically and solve problems efficiently. It wasn't just a subject; it was where my love for code began.",
+      "My Gateway into Programming - I began my coding journey with Java back in high school (Grade 8-12), where it served as the foundation for my understanding of programming. From basic constructs like loops, conditionals, and arrays to core concepts like OOP, recursion, and data structures like stacks and queues. Java trained me to think logically and solve problems efficiently. It wasn't just a subject; it was where my love for code began.",
     category: "Technical Language",
     color: "bg-red-500/20 border-red-500",
   },
@@ -18,7 +18,7 @@ const skillsTimeline = [
     logo: "/logos/c.svg",
     title: "C",
     description:
-      "I first explored C in 2021 through YouTube, where I learned its syntax and basic constructs. However, my formal programming journey truly began in college during my first semester (Jan'23), where C was the foundation. Through countless assignments and a hands-on end-semester project, I built a strong grasp of logic building, memory handling, pointers, and address-level manipulation. C shaped my understanding of how code interacts with hardware — forming a deep-rooted appreciation for problem solving at a low level.",
+      "I first explored C in 2021 through YouTube, where I learned its syntax and basic constructs. However, my formal programming journey truly began in college during my first semester (Jan'23), where C was the foundation. Through countless assignments and a hands-on end-semester project, I built a strong grasp of logic building, memory handling, pointers, and address-level manipulation. C shaped my understanding of how code interacts with hardware - forming a deep-rooted appreciation for problem solving at a low level.",
     category: "Technical Language",
     color: "bg-blue-500/20 border-blue-500",
   },
@@ -45,7 +45,7 @@ const skillsTimeline = [
     logo: "/logos/htmlCssJsLogo.jpg",
     title: "HTML, CSS, JavaScript",
     description:
-      "My web development journey began out of pure curiosity after discovering Google Summer of Code (GSoC). Fascinated by how websites were built, I started exploring HTML, CSS, and JavaScript in 2021. I still remember being intimidated by the 'Inspect Element' tool — it looked like a hacker’s console! But as I dove deeper, things started making sense. From building simple static pages to interactive sites, I’ve been consistently upgrading my skills, especially in CSS layouts and JavaScript logic. This trio of technologies became the canvas for many of my creative experiments online.",
+      "My web development journey began out of pure curiosity after discovering Google Summer of Code (GSoC). Fascinated by how websites were built, I started exploring HTML, CSS, and JavaScript in 2021. I still remember being intimidated by the 'Inspect Element' tool - it looked like a hacker’s console! But as I dove deeper, things started making sense. From building simple static pages to interactive sites, I’ve been consistently upgrading my skills, especially in CSS layouts and JavaScript logic. This trio of technologies became the canvas for many of my creative experiments online.",
     category: "Frontend",
     color: "bg-yellow-500/20 border-yellow-500",
   },
