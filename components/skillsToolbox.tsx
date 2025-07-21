@@ -4,6 +4,11 @@ import { Code, Cpu, Database, Terminal, Settings, Wrench } from "lucide-react";
 const skillsData = [
   {
     icon: <Code className="w-6 h-6 text-sky-400" />,
+    title: "Data Structures and Algorithms",
+    items: ["Arrays", "Stacks", "Queues", "Linked-Lists", "Tress", "Graphs"],
+  },
+  {
+    icon: <Code className="w-6 h-6 text-sky-400" />,
     title: "Technical Languages",
     items: ["JavaScript", "Python", "Java", "C/C++"],
   },
