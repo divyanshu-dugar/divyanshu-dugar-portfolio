@@ -27,7 +27,9 @@ export default function WorkExperience() {
       </div>
 
       <div className="relative border-l border-zinc-700 max-w-4xl mx-auto">
-        {experiences.map((exp, index) => (
+      {[...experiences]
+        .sort((a, b) => new Date(b.from).getTime() - new Date(a.from).getTime())
+        .map((exp, index) => (
           <div key={index} className="mb-12 ml-4 relative">
             <div className="absolute w-4 h-4 bg-sky-400 rounded-full -left-2 top-1"></div>
             <div className="bg-zinc-900 p-6 rounded-2xl shadow-lg border border-zinc-800">
