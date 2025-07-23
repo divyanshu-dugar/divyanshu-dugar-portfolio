@@ -1,9 +1,12 @@
-Here's a modern, visually appealing README.md for your GitHub portfolio:
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/9c96f6c0-fd0b-47fc-8093-8d8a31f0b17b" /><div align="center">
+  <h1>Divyanshu Dugar | Developer Portfolio</h1>
+</div>
+<br/>
 
-```markdown
-# 🚀 Divyanshu Dugar | Developer Portfolio
-
-[![Portfolio Screenshot](https://divyanshu-dugar-developer-portfolio.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fportfolio-screenshot.8f8a3b90.png&w=1920&q=75)](https://divyanshu-dugar-developer-portfolio.vercel.app/)
+<div align="center">
+  <img width="45%" alt="Portfolio Light Mode" src="https://github.com/user-attachments/assets/ff74e6d3-a1b4-4e3d-a923-5b9fa87da182" />
+  <img width="45%" alt="Portfolio Dark Mode" src="https://github.com/user-attachments/assets/5f71851b-7919-4a1e-9ee2-1105d739e465" />
+</div>
 
 ## 👋 About Me
 
@@ -33,9 +36,11 @@ Here are some of my favorite self-growth books I recommend:
 
 <div align="center">
   
-[![Atomic Habits](https://divyanshu-dugar-developer-portfolio.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fatomic-habits.8a48b7e9.jpg&w=256&q=75)](https://divyanshu-dugar-developer-portfolio.vercel.app/my-books/atomic-habits)
-[![Deep Work](https://divyanshu-dugar-developer-portfolio.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdeep-work.1b8f4a4e.jpg&w=256&q=75)](https://divyanshu-dugar-developer-portfolio.vercel.app/my-books/deep-work)
-[![Mindset](https://divyanshu-dugar-developer-portfolio.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmindset.0c8e1f4e.jpg&w=256&q=75)](https://divyanshu-dugar-developer-portfolio.vercel.app/my-books/mindset)
+<div align="center"> 
+  <img width="30%" alt="Atomic Habits" src="https://divyanshu-dugar-developer-portfolio.vercel.app/_next/image?url=%2Fbooks%2Fatomic-habits.jpg&w=1080&q=75" /> 
+  <img width="30%" alt="Rich Dad Poor Dad" src="https://divyanshu-dugar-developer-portfolio.vercel.app/_next/image?url=%2Fbooks%2Frich-dad-poor-dad.png&w=1080&q=75" /> 
+  <img width="30%" alt="Ikigai" src="https://divyanshu-dugar-developer-portfolio.vercel.app/_next/image?url=%2Fbooks%2Fikigai.jpg&w=1080&q=75" /> 
+</div>
 
 </div>
 
