@@ -83,11 +83,9 @@ graph TD
 
 MIT © [Divyanshu Dugar](https://github.com/divyanshu-dugar)
 
----
-
 <div align="center">
   
-✨ **"Compounding is the 8th wonder of the world."** ✨
+✨ <i>**"Compounding is the 8th wonder of the world."**</i> ✨
 
 </div>
-```
+
