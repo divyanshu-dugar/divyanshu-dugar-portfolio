@@ -7,12 +7,17 @@
   <img width="45%" alt="Portfolio Light Mode" src="https://github.com/user-attachments/assets/ff74e6d3-a1b4-4e3d-a923-5b9fa87da182" />
   <img width="45%" alt="Portfolio Dark Mode" src="https://github.com/user-attachments/assets/5f71851b-7919-4a1e-9ee2-1105d739e465" />
 </div>
+<br/>
+<div align="center">
+  <img width="45%" alt="image" src="https://github.com/user-attachments/assets/9b042690-e7af-43ee-b879-e0c5b1ca1ebe" />
+  <img width="45%" alt="image" src="https://github.com/user-attachments/assets/6c187043-035e-4710-89fd-ea82b18bf034" />
+</div>
 
 ## 👋 About Me
 
 I'm **Divyanshu Dugar** - a passionate full-stack developer and data enthusiast currently pursuing Computer Programming at Seneca Polytechnic. By day, I build digital solutions; by night, I share self-growth insights through my initiative **[1% Wiser](https://divyanshu-dugar-developer-portfolio.vercel.app/my-books)**.
 
-```typescript
+```js
 const myStack = {
   code: ["JavaScript", "Python", "Java", "C++"],
   frameworks: ["Next.js", "React", "Node.js", "Express"],
