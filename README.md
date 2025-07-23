@@ -1,12 +1,12 @@
 # 👨‍💻 Divyanshu Dugar's Portfolio
 
-Welcome to my personal portfolio website! I'm Divyanshu Dugar — a passionate software developer, data enthusiast, and self-growth advocate. This site is a showcase of my journey, projects, and passions across full-stack development, personal finance, and digital content.
+Welcome to my personal portfolio website! I'm Divyanshu Dugar - a passionate `software developer`, `data enthusiast`, and `self-growth` advocate. This site is a showcase of my journey, projects, and passions across `programming`, `self growth`, and `self-help books`.
 
 ## 🚀 Live Website
 
 🌐 [Visit Portfolio](https://divyanshu-dugar-developer-portfolio.vercel.app/)
 
----
+<br/>
 
 ## 📌 About Me
 
@@ -14,7 +14,7 @@ I'm currently pursuing Computer Programming and Analysis at Seneca Polytechnic. 
 
 I believe in building tools that solve real problems and growing 1% better every day.
 
----
+<br/>
 
 ## 🛠️ Tech Stack
 
@@ -25,14 +25,14 @@ I believe in building tools that solve real problems and growing 1% better every
 - **Vercel** for deployment
 - **Git** & **GitHub** for version control
 
----
+<br/>
 
 ## 📂 Features
 
 - 📌 Clean, modern UI with responsive design
 - 🌗 Dark-themed minimal UI for clarity and focus
 
----
+<br/>
 
 ## 🧾 Folder Structure
 
@@ -54,7 +54,7 @@ I believe in building tools that solve real problems and growing 1% better every
 │   └── globals.css
 ````
 
----
+<br/>
 
 ## 💡 Inspiration
 
