@@ -1,4 +1,4 @@
-<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/9c96f6c0-fd0b-47fc-8093-8d8a31f0b17b" /><div align="center">
+<div>
   <h1>Divyanshu Dugar | Developer Portfolio</h1>
 </div>
 <br/>
@@ -33,15 +33,11 @@ const myStack = {
 ## 📚 1% Wiser Book Club
 
 Here are some of my favorite self-growth books I recommend:
-
-<div align="center">
   
 <div align="center"> 
   <img width="30%" alt="Atomic Habits" src="https://divyanshu-dugar-developer-portfolio.vercel.app/_next/image?url=%2Fbooks%2Fatomic-habits.jpg&w=1080&q=75" /> 
   <img width="30%" alt="Rich Dad Poor Dad" src="https://divyanshu-dugar-developer-portfolio.vercel.app/_next/image?url=%2Fbooks%2Frich-dad-poor-dad.png&w=1080&q=75" /> 
   <img width="30%" alt="Ikigai" src="https://divyanshu-dugar-developer-portfolio.vercel.app/_next/image?url=%2Fbooks%2Fikigai.jpg&w=1080&q=75" /> 
-</div>
-
 </div>
 
 [Explore All Recommendations →](https://divyanshu-dugar-developer-portfolio.vercel.app/my-books)
