@@ -1,4 +1,4 @@
-<div>
+<div align="center">
   <h1>Divyanshu Dugar | Developer Portfolio</h1>
 </div>
 <br/>
