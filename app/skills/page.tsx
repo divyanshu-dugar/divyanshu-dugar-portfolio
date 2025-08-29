@@ -102,7 +102,7 @@ export default function SkillsTimeline() {
       <div className="min-h-screen bg-gradient-to-b from-zinc-950 to-black px-4 py-16 text-white overflow-x-hidden">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-5xl font-extrabold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-sky-400 via-purple-400 to-pink-400 drop-shadow-lg py-2">
-            My Skills Journey <span className="inline-block animate-bounce">📈</span>
+            My Skills Journey <span className="inline-block text-white animate-bounce">📈</span>
           </h1>
           
           <div className="relative">

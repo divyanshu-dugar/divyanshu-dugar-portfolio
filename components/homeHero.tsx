@@ -39,10 +39,10 @@ export default function HomeHero() {
 
         {/* Left Section Text */}
         <div className="text-center lg:text-left">
-          <h1 className="text-4xl md:text-5xl font-bold">
+          <h1 className="text-4xl md:text-5xl text-white font-bold">
             Hi! My name is <span className="text-purple-500">Divyanshu Dugar</span>
           </h1>
-          <p className="py-3 text-xl font-normal">and I am a passionate</p>
+          <p className="py-3 text-xl text-white font-normal">and I am a passionate</p>
 
           <span
             ref={el}

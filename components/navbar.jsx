@@ -96,7 +96,7 @@ export default function Navbar() {
             ))}
           </ul>
         </div>
-        <Link href="/" className="btn btn-ghost text-xl">
+        <Link href="/" className="btn btn-ghost text-xl text-white">
           DD
         </Link>
       </div>
