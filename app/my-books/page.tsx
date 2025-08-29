@@ -64,8 +64,8 @@ export default function MyBooks() {
     <>
       <main className="min-h-screen bg-zinc-900 px-6 py-10">
         <div className="max-w-5xl mx-auto text-center">
-          <h1 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-purple-500 mb-10">
-            My Book Collection :)
+          <h1 className="text-5xl font-extrabold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-sky-400 via-purple-400 to-pink-400 drop-shadow-lg py-2">            
+            My Reading List
           </h1>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

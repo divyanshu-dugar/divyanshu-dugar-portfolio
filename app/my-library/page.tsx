@@ -57,7 +57,7 @@ export default function NotesPage() {
   return (
     <main className="min-h-screen bg-[#121212] px-6 py-10">
       <div className="max-w-5xl mx-auto text-center">
-        <h1 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-purple-500 mb-10">
+        <h1 className="text-5xl font-extrabold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-sky-400 via-purple-400 to-pink-400 drop-shadow-lg py-2">
           Welcome to My Library
         </h1>
       </div>

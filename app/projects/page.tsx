@@ -36,7 +36,7 @@ export default function Projects() {
     <>
       <main className="min-h-screen bg-zinc-950 text-white px-6 py-12">
         <div className="max-w-5xl mx-auto text-center mb-10">
-          <h1 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-purple-500 mb-4">
+          <h1 className="text-5xl font-extrabold text-center text-transparent bg-clip-text bg-gradient-to-r from-sky-400 via-purple-400 to-pink-400 drop-shadow-lg py-2">
             My Projects
           </h1>
           <p className="text-zinc-400 text-lg">
