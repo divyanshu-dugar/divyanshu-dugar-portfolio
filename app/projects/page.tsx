@@ -1,4 +1,3 @@
-import Navbar from "@/components/navbar";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import Image from "next/image";
 

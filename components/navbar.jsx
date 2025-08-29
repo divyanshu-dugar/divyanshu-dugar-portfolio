@@ -2,9 +2,12 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useState, useRef, useEffect } from "react";
 
 export default function Navbar() {
   const pathname = usePathname();
+  const [isOpen, setIsOpen] = useState(false);
+  const dropdownRef = useRef(null);
 
   const isActive = (path) =>
     pathname === path
@@ -23,14 +26,44 @@ export default function Navbar() {
     { href: "/", text: "My Learning List 🔒" },
   ];
 
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
+  // Function to close the mobile menu
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
+  // Toggle menu function
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <div className="navbar bg-base-100 shadow-sm">
       <div className="navbar-start">
-        <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+        <div className="dropdown" ref={dropdownRef}>
+          {/* Hamburger button - using onClick instead of relying on DaisyUI's tabIndex */}
+          <button
+            type="button"
+            className="btn btn-ghost lg:hidden"
+            onClick={toggleMenu}
+            aria-label="Toggle menu"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
+              className="h-5 w-5 text-white"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -39,17 +72,24 @@ export default function Navbar() {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
-                d="M4 6h16M4 12h8m-8 6h16"
+                d="M4 6h16M4 12h16M4 18h16"
               />
             </svg>
-          </div>
+          </button>
+          
+          {/* Dropdown menu controlled by our state */}
           <ul
-            tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow font-bold"
+            className={`menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-bold ${
+              isOpen ? "block" : "hidden"
+            }`}
           >
             {navLinks.map((link) => (
               <li key={link.text}>
-                <Link href={link.href} className={isActive(link.href)}>
+                <Link 
+                  href={link.href} 
+                  className={isActive(link.href)}
+                  onClick={closeMenu}
+                >
                   {link.text}
                 </Link>
               </li>
