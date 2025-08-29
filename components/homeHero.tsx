@@ -9,7 +9,7 @@ export default function HomeHero() {
   useEffect(() => {
     const typed = new Typed(el.current!, {
       strings: [
-        "Web Developer",
+        "Full Stack Developer",
         "Data Analyst",
         "Content Creator",
         "Teacher",
