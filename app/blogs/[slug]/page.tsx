@@ -40,7 +40,7 @@ export default async function BlogPage({
       )}
       <h1 className="text-4xl font-bold mb-8">{blog.title}</h1>
       <div className="prose">
-        <p>Published: {new Date(blog.publishedAt).toLocaleDateString()}</p>
+        <p>Published: {new Date(blog.createdAt).toLocaleDateString()}</p>
         {Array.isArray(blog.body) && <PortableText value={blog.body} />}
       </div>
     </main>

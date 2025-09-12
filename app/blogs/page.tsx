@@ -6,7 +6,7 @@ import { client } from "@/sanity/client";
 const BLOGS_QUERY = `*[
   _type == "blog"
   && defined(slug.current)
-][0...12]{title, slug, publishedAt}`;
+][0...12]{title, slug, createdAt}`;
 
 const options = { next: { revalidate: 30 } };
 
@@ -22,6 +22,7 @@ export default async function IndexPage() {
             <Link href={`/blogs/${blog.slug.current}`}>
               <h2 className="text-xl font-semibold">{blog.title}</h2>
             </Link>
+            <p>{new Date(blog.createdAt).toLocaleDateString()}</p>
           </li>
         ))}
       </ul>
