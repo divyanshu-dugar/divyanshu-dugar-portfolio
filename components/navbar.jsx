@@ -18,6 +18,7 @@ export default function Navbar() {
     { href: "/", text: "Home" },
     { href: "/about", text: "About" },
     { href: "/skills", text: "Skills" },
+    { href: "/blogs", text: "Blogs" },
     { href: "/projects", text: "Projects" },
     { href: "/work-experience", text: "Work Experience" },
     { href: "/my-library", text: "My Library" },
