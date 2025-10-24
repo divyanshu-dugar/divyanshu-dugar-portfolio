@@ -7,28 +7,28 @@ const projects = [
     image: "/projects/Fin-Craft-Studios.png",
     description:
       "A full-stack finance suite consisting of 3 apps: Ledgerify (expense tracker with Chart.js), Budgetify (budget planner with insights), and Savify (goal visualization app).",
-    tech: ["MongoDB", "Express", "React", "Node.js", "Chart.js"],
-    github: "https://github.com/divyanshu-dugar/Fin-Craft-Studios",
-    live: "https://ledgerify-client.vercel.app/",
+    tech: ["MongoDB", "Express", "Next.js", "Node.js", "Recharts", "JWT"],
+    github: "https://github.com/divyanshu-dugar/fincraft-studios",
+    live: "https://fincraft-studios.vercel.app/",
   },
-  {
-    name: "Nike Database",
-    image: "/projects/nike.png",
-    description:
-      "A comprehensive SQL-based database project for Nike, including schema design, queries, and procedures for inventory and order management.",
-    tech: ["Oracle 12c", "SQL", "ERD Design"],
-    github: "https://github.com/divyanshu-dugar/Nike-DataBase",
-    live: "",
-  },
-  {
-    name: "LegoSets",
-    image: "/projects/lego-sets.png",
-    description:
-      "An Express.js and MongoDB-based app to browse, filter, and manage Lego set collections, with dynamic routes and EJS views.",
-    tech: ["MongoDB", "Express.js", "EJS", "Node.js"],
-    github: "https://github.com/divyanshu-dugar/LegoSets",
-    live: "",
-  },
+  // {
+  //   name: "Nike Database",
+  //   image: "/projects/nike.png",
+  //   description:
+  //     "A comprehensive SQL-based database project for Nike, including schema design, queries, and procedures for inventory and order management.",
+  //   tech: ["Oracle 12c", "SQL", "ERD Design"],
+  //   github: "https://github.com/divyanshu-dugar/Nike-DataBase",
+  //   live: "",
+  // },
+  // {
+  //   name: "LegoSets",
+  //   image: "/projects/lego-sets.png",
+  //   description:
+  //     "An Express.js and MongoDB-based app to browse, filter, and manage Lego set collections, with dynamic routes and EJS views.",
+  //   tech: ["MongoDB", "Express.js", "EJS", "Node.js"],
+  //   github: "https://github.com/divyanshu-dugar/LegoSets",
+  //   live: "",
+  // },
 ];
 
 export default function Projects() {
