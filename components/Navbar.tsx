@@ -113,7 +113,7 @@ export default function Navbar() {
                   transition={{ duration: 2, repeat: Infinity }}
                   className="w-3 h-3 bg-cyan-400 rounded-full"
                 />
-                <span className="text-slate-400 text-xs">Seneca College</span>
+                <span className="text-slate-400 text-xs">Welcome to my Portfolio Webpage</span>
               </div>
             </div>
           </motion.div>
