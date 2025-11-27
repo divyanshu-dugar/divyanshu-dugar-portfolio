@@ -3,7 +3,7 @@
 import { FaGithub } from "react-icons/fa";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { easeOut } from "framer-motion"; // ⬅ correct import for easing functions
+import { easeOut } from "framer-motion"; 
 import { 
   Sparkles, 
   ExternalLink, 
@@ -28,7 +28,6 @@ const projects = [
 
 export default function Projects() {
 
-  // ✔ FIXED VARIANTS — using real easing functions instead of strings
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -47,7 +46,7 @@ export default function Projects() {
       y: 0,
       transition: {
         duration: 0.6,
-        ease: easeOut // ⬅ REAL easing function
+        ease: easeOut 
       }
     }
   };
