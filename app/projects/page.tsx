@@ -1,108 +1,167 @@
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+"use client";
+
+import { FaGithub } from "react-icons/fa";
 import Image from "next/image";
+import { motion } from "framer-motion";
+import { easeOut } from "framer-motion"; // ⬅ correct import for easing functions
+import { 
+  Sparkles, 
+  ExternalLink, 
+  Github, 
+  ArrowRight,
+  Code2,
+  Eye
+} from "lucide-react";
 
 const projects = [
   {
-    name: "Fin-Craft-Studios",
+    name: "FinCraft Studios",
     image: "/projects/Fin-Craft-Studios.png",
-    description:
-      "A full-stack finance suite consisting of 3 apps: Ledgerify (expense tracker with Chart.js), Budgetify (budget planner with insights), and Savify (goal visualization app).",
+    description: "A full-stack finance suite consisting of 3 apps...",
     tech: ["MongoDB", "Express", "Next.js", "Node.js", "Recharts", "JWT"],
     github: "https://github.com/divyanshu-dugar/fincraft-studios",
     live: "https://fincraft-studios.vercel.app/",
-  },
-  // {
-  //   name: "Nike Database",
-  //   image: "/projects/nike.png",
-  //   description:
-  //     "A comprehensive SQL-based database project for Nike, including schema design, queries, and procedures for inventory and order management.",
-  //   tech: ["Oracle 12c", "SQL", "ERD Design"],
-  //   github: "https://github.com/divyanshu-dugar/Nike-DataBase",
-  //   live: "",
-  // },
-  // {
-  //   name: "LegoSets",
-  //   image: "/projects/lego-sets.png",
-  //   description:
-  //     "An Express.js and MongoDB-based app to browse, filter, and manage Lego set collections, with dynamic routes and EJS views.",
-  //   tech: ["MongoDB", "Express.js", "EJS", "Node.js"],
-  //   github: "https://github.com/divyanshu-dugar/LegoSets",
-  //   live: "",
-  // },
+    gradient: "from-blue-500 to-cyan-500",
+    category: "Full Stack"
+  }
 ];
 
 export default function Projects() {
+
+  // ✔ FIXED VARIANTS — using real easing functions instead of strings
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.2,
+        ease: easeOut
+      }
+    }
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: 30 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.6,
+        ease: easeOut // ⬅ REAL easing function
+      }
+    }
+  };
+
   return (
-    <>
-      <main className="min-h-screen bg-zinc-950 text-white px-6 py-12">
-        <div className="max-w-5xl mx-auto text-center mb-10">
-          <h1 className="text-5xl font-extrabold text-center text-transparent bg-clip-text bg-gradient-to-r from-sky-400 via-purple-400 to-pink-400 drop-shadow-lg py-2">
-            My Projects
-          </h1>
-          <p className="text-zinc-400 text-lg">
-            A showcase of the applications I've built with passion and purpose.
-          </p>
-        </div>
+    <section className="min-h-screen bg-slate-950 relative overflow-hidden">
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 py-20">
+        
+        {/* Header */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="text-center mb-16"
+        >
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            className="inline-flex items-center space-x-2 bg-slate-800/50 border border-slate-700 rounded-2xl px-4 py-2 mb-6 backdrop-blur-sm"
+          >
+            <Code2 className="w-4 h-4 text-cyan-400" />
+            <span className="text-slate-300 text-sm font-medium">Featured Work</span>
+          </motion.div>
+
+          <motion.h1 
+            className="text-5xl md:text-7xl font-bold text-white mb-6"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.2 }}
+          >
+            My{" "}
+            <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent">
+              Projects
+            </span>
+          </motion.h1>
+
+        </motion.div>
+
+        {/* Project Cards */}
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8"
+        >
           {projects.map((project, index) => (
-            <div
+            <motion.div
               key={index}
-              className="bg-zinc-900 border border-zinc-800 rounded-xl p-6 shadow-md hover:border-sky-500 transition-all flex flex-col justify-between"
+              variants={itemVariants}
+              whileHover={{ y: -8, scale: 1.02 }}
+              className="group relative"
             >
-              <div>
-                <h2 className="text-2xl font-bold mb-2 text-white">
-                  {project.name}
-                </h2>
+              <div className="relative bg-slate-800/50 backdrop-blur-sm rounded-2xl border border-slate-700 overflow-hidden h-full flex flex-col">
 
-                {/* Blurred Image Preview */}
-                <div className="relative w-full h-48 mb-4 rounded-lg overflow-hidden">
-                    <Image
+                {/* Image */}
+                <div className="relative h-48 overflow-hidden">
+                  <Image
                     src={project.image}
-                    alt={`${project.name} preview`}
+                    alt={project.name}
                     fill
-                    className="object-cover filter scale-105"
-                    />
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
                 </div>
 
-                <p className="text-zinc-400 text-sm mb-4">
-                  {project.description}
-                </p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  {project.tech.map((tech, i) => (
-                    <span
-                      key={i}
-                      className="bg-zinc-800 text-sky-300 text-xs px-3 py-1 rounded-full"
+                {/* Content */}
+                <div className="p-6 flex-1 flex flex-col">
+                  <h3 className="text-xl font-bold text-white mb-3">
+                    {project.name}
+                  </h3>
+
+                  <p className="text-slate-400 text-sm mb-4">{project.description}</p>
+
+                  <div className="flex flex-wrap gap-2 mb-6">
+                    {project.tech.map((tech, i) => (
+                      <span key={i} className="px-3 py-1 bg-slate-700/50 text-slate-300 text-xs rounded-lg">
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+
+                  <div className="flex items-center justify-between pt-4 border-t border-slate-700/50">
+                    <motion.a
+                      whileHover={{ scale: 1.05 }}
+                      href={project.github}
+                      target="_blank"
+                      className="flex items-center space-x-2 text-slate-400"
                     >
-                      {tech}
-                    </span>
-                  ))}
+                      <Github className="w-4 h-4" />
+                      <span className="text-sm font-medium">Code</span>
+                    </motion.a>
+
+                    {project.live && (
+                      <motion.a
+                        whileHover={{ scale: 1.05 }}
+                        href={project.live}
+                        target="_blank"
+                        className="flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-cyan-600 text-white px-4 py-2 rounded-xl text-sm font-semibold"
+                      >
+                        <Eye className="w-4 h-4" />
+                        <span>Live Demo</span>
+                        <ExternalLink className="w-3 h-3" />
+                      </motion.a>
+                    )}
+                  </div>
+
                 </div>
               </div>
-              <div className="flex justify-between items-center mt-4">
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-sm text-sky-400 hover:text-sky-300"
-                >
-                  <FaGithub /> GitHub
-                </a>
-                {project.live && (
-                  <a
-                    href={project.live}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-sm text-emerald-400 hover:text-emerald-300"
-                  >
-                    <FaExternalLinkAlt /> Live Demo
-                  </a>
-                )}
-              </div>
-            </div>
+            </motion.div>
           ))}
-        </div>
-      </main>
-    </>
+        </motion.div>
+
+      </div>
+    </section>
   );
 }
