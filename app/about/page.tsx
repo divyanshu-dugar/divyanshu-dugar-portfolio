@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import { easeOut, backOut } from "framer-motion";
 import {
   Brain,
   Heart,
@@ -32,7 +33,7 @@ export default function AboutMe() {
       y: 0,
       transition: {
         duration: 0.6,
-        ease: "easeOut",
+        ease: easeOut,
       },
     },
   };
@@ -44,7 +45,7 @@ export default function AboutMe() {
       opacity: 1,
       transition: {
         duration: 0.5,
-        ease: "backOut",
+        ease: backOut,
       },
     },
   };
