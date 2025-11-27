@@ -125,12 +125,12 @@ export default function HomePage() {
 
           {/* Main Headline */}
           <motion.h1 
-            className="text-6xl md:text-8xl font-bold text-white mb-6 leading-tight"
+            className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
           >
-            Shaping
+            Learning & Growing
             <motion.span 
               className="block bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent"
               animate={{ 
@@ -145,7 +145,7 @@ export default function HomePage() {
                 backgroundSize: "200% 200%"
               }}
             >
-              Digital Future
+              - 1% Everyday
             </motion.span>
           </motion.h1>
 
@@ -156,7 +156,7 @@ export default function HomePage() {
             transition={{ delay: 0.6 }}
             className="text-xl md:text-2xl text-slate-400 mb-12 max-w-3xl mx-auto leading-relaxed"
           >
-            Passionate Computer Programming student with a growth mindset, continuously expanding my technical expertise through hands-on projects.
+            Passionate programmer with a growth mindset, continuously expanding my technical expertise through hands-on projects.
           </motion.p>
 
           {/* CTA Buttons */}
