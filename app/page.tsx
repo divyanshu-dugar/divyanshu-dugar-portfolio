@@ -156,8 +156,7 @@ export default function HomePage() {
             transition={{ delay: 0.6 }}
             className="text-xl md:text-2xl text-slate-400 mb-12 max-w-3xl mx-auto leading-relaxed"
           >
-            Passionate Computer Programming student with a growth mindset, dedicated to crafting 
-            innovative solutions and continuously expanding my technical expertise through hands-on projects.
+            Passionate Computer Programming student with a growth mindset, continuously expanding my technical expertise through hands-on projects.
           </motion.p>
 
           {/* CTA Buttons */}
@@ -170,7 +169,7 @@ export default function HomePage() {
             <motion.a
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
-              href="#projects"
+              href="/projects"
               className="group bg-gradient-to-r from-blue-600 to-cyan-600 text-white px-8 py-4 rounded-2xl font-semibold text-lg hover:shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 flex items-center space-x-3"
             >
               <span>Explore My Projects</span>
@@ -180,11 +179,11 @@ export default function HomePage() {
             <motion.a
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
-              href="#about"
+              href="/my-mindset"
               className="group border border-slate-700 text-slate-300 px-8 py-4 rounded-2xl font-semibold text-lg hover:bg-slate-800/50 hover:border-slate-600 transition-all duration-300 flex items-center space-x-3 backdrop-blur-sm"
             >
               <BookOpen className="w-5 h-5 group-hover:scale-110 transition-transform" />
-              <span>My Learning Journey</span>
+              <span>My Mindset</span>
             </motion.a>
           </motion.div>
 
