@@ -33,7 +33,8 @@ export default function Navbar() {
     { href: "/skills", text: "Skills" },
     { href: "/projects", text: "Projects" },
     { href: "/work-experience", text: "Experience" },
-    { href: "/blogs", text: "Blogs" },
+    { href: "/my-mindset", text: "1% Wiser"},
+    // { href: "/blogs", text: "Blogs" },
     { href: "/my-library", text: "Library" },
   ];
 
