@@ -15,12 +15,32 @@ import {
 
 const projects = [
   {
-    name: "FinCraft Studios",
+    name: "Fincraft AI",
     image: "/projects/Fin-Craft-Studios.png",
-    description: "A full-stack finance suite consisting of 3 apps...",
+    description: "A full-stack finance suite consisting of ...",
     tech: ["MongoDB", "Express", "Next.js", "Node.js", "Recharts", "JWT"],
     github: "https://github.com/divyanshu-dugar/fincraft-studios",
     live: "https://fincraft-studios.vercel.app/",
+    gradient: "from-blue-500 to-cyan-500",
+    category: "Full Stack"
+  },
+  {
+    name: "1% Wiser - Kids",
+    image: "/projects/one-percent-wiser-kids.jpeg",
+    description: "A full-stack finance suite consisting of 3 apps...",
+    tech: ["Next.js", "Node.js", "Recharts", "Email.js"],
+    github: "https://github.com/divyanshu-dugar/1-percent-wiser-kids",
+    live: "https://1-percent-wiser-kids.vercel.app",
+    gradient: "from-blue-500 to-cyan-500",
+    category: "Full Stack"
+  },
+  {
+    name: "Web-Development Playground",
+    image: "/projects/one-percent-wiser-kids.jpeg",
+    description: "A full-stack finance suite consisting of 3 apps...",
+    tech: ["Next.js", "Node.js", "Recharts", "Email.js"],
+    github: "https://github.com/divyanshu-dugar/web-development-playground",
+    live: "https://1-percent-wiser-kids.vercel.app",
     gradient: "from-blue-500 to-cyan-500",
     category: "Full Stack"
   }
